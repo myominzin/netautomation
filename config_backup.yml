@@ -14,5 +14,5 @@
     - name: RENAME BACKUP
       copy:
         src: "{{config_output.backup_path}}"
-        dest: "./backup/{{inventory_hostname}}.config"
+        dest: "/home/student1/networking-workshop/backup/{{inventory_hostname}}.config"
 
