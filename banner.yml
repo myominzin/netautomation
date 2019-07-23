@@ -1,0 +1,15 @@
+---
+- name: SET ROUTER BANNERS
+  hosts: routers
+  gather_facts: no
+
+  tasks:
+
+- name: LOAD BANNER ONTO NETWORK DEVICE
+  ios_banner:
+    banner: login
+    text: |
+      this is my login banner
+      that contains a multiline
+      string
+     state: present
