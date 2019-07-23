@@ -23,4 +23,4 @@
 
     - name: ENSURE THAT ROUTERS ARE SECURE
       ios_config:
-      src: secure_router.cfg
+        src: secure_router.cfg
