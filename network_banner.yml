@@ -9,4 +9,4 @@
       include_tasks: "{{ ansible_network_os }}_banner.yaml"
       vars:
         - network_banner:  "{{ net_banner | default(None) }}"
-- banner_type: "{{ banner_type | default('login') }}"
+        - banner_type: "{{ banner_type | default('login') }}"
