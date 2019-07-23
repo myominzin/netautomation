@@ -9,7 +9,5 @@
   ios_banner:
     banner: login
     text: |
-      this is my login banner
-      that contains a multiline
-      string
+      "{{ network_banner }}"
      state: present
